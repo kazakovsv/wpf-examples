@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEvents.SingularHandler.Xaml", "RoutedEvents.SingularHandler.Xaml\RoutedEvents.SingularHandler.Xaml.csproj", "{2AC36748-F7D3-4829-AD30-34C86A70A162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AC36748-F7D3-4829-AD30-34C86A70A162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC36748-F7D3-4829-AD30-34C86A70A162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC36748-F7D3-4829-AD30-34C86A70A162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC36748-F7D3-4829-AD30-34C86A70A162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4697B785-47EB-4D99-A029-B1B0D3A955D9}
+	EndGlobalSection
+EndGlobal
