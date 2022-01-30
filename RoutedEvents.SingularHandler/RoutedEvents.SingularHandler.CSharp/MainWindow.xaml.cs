@@ -12,7 +12,7 @@ namespace RoutedEvents.SingularHandler.CSharp
             InitializeComponent();
             InitializeProperties();
             InitializeResources();
-            InitializeWindwowContetnt();
+            InitializeWindowContent();
         }
 
         private void InitializeProperties()
@@ -36,7 +36,7 @@ namespace RoutedEvents.SingularHandler.CSharp
             Resources.Add(typeof(Button), style);
         }
 
-        private void InitializeWindwowContetnt()
+        private void InitializeWindowContent()
         {
             Border border = new Border
             {
