@@ -13,13 +13,14 @@
             <Setter Property="Margin" Value="3"/>
         </Style>
     </Window.Resources>
-    <Border BorderBrush="{x:Static SystemColors.ActiveBorderBrush}"
+    <Border Background="{x:Static SystemColors.ControlBrush}"
+            BorderBrush="{x:Static SystemColors.ActiveBorderBrush}"
             BorderThickness="1"
             MinHeight="40"
             MinWidth="300"
             Margin="6">
-        <Grid Background="{x:Static SystemColors.ControlBrush}"
-              Button.Click="OnButtonClick">
+        <Grid Button.Click="OnButtonClick"
+              Margin="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
